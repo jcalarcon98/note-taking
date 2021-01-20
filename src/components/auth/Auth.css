@@ -1,0 +1,64 @@
+/**
+  Color palette:
+  #e8e8e8
+  #f05454
+  #30475e
+  #222831
+ */
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 97vh;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #fcfdff;
+  height: 500px;
+  padding: 20px;
+  width: 350px;
+}
+
+.card h2 {
+  color: #30475e;
+  font-weight: 700;
+}
+
+.login-form-button {
+  background-color: #f05454;
+  border-radius: 5px;
+  color: #fcfdff;
+  font-weight: 700;
+  width: 100%;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #30475e;
+}
+
+.form:focus {
+  border: none;
+  outline: none;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+
+/* Responsive mode */
+
+@media (min-width:1025px) { 
+  
+  /* .card {
+    border: 1px solid red;
+    width: 450px;
+    height: 600px;
+  } */
+
+}

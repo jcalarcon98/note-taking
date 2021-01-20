@@ -21,11 +21,3 @@ const AuthRouter = () => {
 };
 
 export default AuthRouter;
-
-/**
- * .color1 {color: #120907;}
-  .color2 {color: #232140;}
-  .color3 {color: #5a5e95;}
-  .color4 {color: #989de7;}
-  .color5 {color: #d4d8ed;}
- */
