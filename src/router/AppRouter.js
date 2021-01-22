@@ -24,7 +24,6 @@ const AppRouter = () => {
 
         </Switch>
       </div>
-
     </Router>
   );
 

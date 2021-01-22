@@ -1,9 +1,10 @@
 import AppRouter from "./router/AppRouter";
-import './JournalApp.css';
 
 const JournalApp = () => {
   return (
-    <AppRouter />
+    <div className='h-screen'>
+      <AppRouter />
+    </div>
   )
 }
 
